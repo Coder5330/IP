@@ -1,0 +1,38 @@
+.box {
+    background-color: lightgrey;
+    border: 2px solid black;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: 2px solid darkblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#potato {
+  transition: transform 0.2s ease; /* Makes the shrink smooth */
+}
+
+#potato:hover {
+  transform: scale(0.9); /* Shrinks slightly on hover */
+}
+
+#potato:active {
+  transform: scale(0.85); /* Shrinks a bit more when clicked */
+}
